@@ -19,5 +19,6 @@ public static void main(String[] args) {
 	   System.out.println("net payable amount Rs. "+ (am-e));
 	}
 	System.out.println();
+	sc.close();
 }
 }

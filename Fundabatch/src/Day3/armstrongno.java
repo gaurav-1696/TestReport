@@ -14,7 +14,6 @@ public class armstrongno {
 			int two = n / 10;
 			int first = two / 10;
 			int mid = two % 10;
-
 			int add = (lastdigit * lastdigit * lastdigit) + (first * first * first) + (mid * mid * mid);
 
 			System.out.println("sum of cube =" + add);

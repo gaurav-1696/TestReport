@@ -11,10 +11,12 @@ public static void main(String[] args) {
 	int c=sc.nextInt();
 	if(a>b && a>c)
 		System.out.println(" a is greater");
-	else if(b>a && b>c)
+	else if(b>a && b>c) {
 		
 	System.out.println("b is greater");
+	}
 	else
 		System.out.println("c is greater");
+	sc.close();
 }
 }

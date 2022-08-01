@@ -12,7 +12,6 @@ public static void main(String[] args) {
 		sum=sum+i;
 	}
 	System.out.println("sum of natural number "+sum);
-	
-	
+sc.close();	
 }
 }

@@ -15,5 +15,6 @@ public class ifelseladder {
 			System.out.println("u got Second class");
 		else
 			System.out.println("Fail");
+		sc.close();
 	}
 }

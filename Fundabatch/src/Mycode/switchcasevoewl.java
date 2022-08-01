@@ -28,7 +28,7 @@ public class switchcasevoewl {
 			System.out.println("consonent");
 
 		}
-
+sc.close();
 	}
 
 }

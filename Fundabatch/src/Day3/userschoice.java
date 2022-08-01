@@ -20,5 +20,6 @@ public static void main(String[] args) {
 		 System.out.println("divide="+(a/b));
 	 else 
 		 System.out.println("invalid key");
+	 sc.close();
 }
 }

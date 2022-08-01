@@ -12,7 +12,8 @@ public static void main(String[] args) {
 	int choice=sc.nextInt();
 	switch (choice)
 	{
-	case 1:int sum=a+b;
+	case 1:
+		int sum=a+b;
 	System.out.println("sum"+sum);
 	break;
 	case 2:int sub=a-b;
@@ -25,5 +26,6 @@ public static void main(String[] args) {
 	System.out.println("division"+div);
 	default:System.out.println("invalid choice");
 	}
+	sc.close();
 }
 }

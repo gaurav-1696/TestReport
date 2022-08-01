@@ -12,12 +12,7 @@ public class for1to20square {
 			h=i*i;
 			System.out.println(h);
 		}
-                 // for n number
-		//import java.util.Scanner;
-		//Scanner s=new Scanner(System.in);
-		// int n=sc.nextint();
-		//int i=1,h;
-		//for (i=1;i<=n;i++)
+               
 	}
 
 }

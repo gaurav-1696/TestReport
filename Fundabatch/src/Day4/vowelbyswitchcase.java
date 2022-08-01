@@ -18,5 +18,6 @@ public static void main(String[] args) {
 		break;
 		default:System.out.println("consonant");
 	}
+	sc.close();
 }
 }
