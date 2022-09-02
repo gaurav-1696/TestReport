@@ -14,6 +14,10 @@ public class Overriding extends Overloading {
 	{
 		System.out.println("myname is fdf ");	
 	}
+	public static void main(String[] args) {
+		Overriding e= new Overriding();
+		e.eat(12);
+	}
 	}
 
 

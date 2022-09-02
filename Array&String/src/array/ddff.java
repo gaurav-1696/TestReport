@@ -14,8 +14,9 @@ public static void main(String[] args) {
 				cnt++;
 			}
 		}
-		System.out.print(cnt);
+		
 	}
+	System.out.print(cnt);
 	
 }
 }

@@ -1,8 +1,8 @@
 package com.string;
 
 public class ReverseString1 {
-	public static void main(String[] args) {
-
+	public static void main(String...a) {
+        // int a=90;
 		String s = "Java is a programming language";
 	//  String str[]=s.split(" ");
 		char str[]=s.toCharArray();

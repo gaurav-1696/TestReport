@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CompanyCarMain {
-
 	public static void main(String[] args) {
 		ArrayList<Company> comp=new ArrayList<>();
 		Scanner sc = new Scanner(System.in);
@@ -30,7 +29,7 @@ public class CompanyCarMain {
 		System.out.println(comp);
 		
 		for(Company c: comp)
-		{
+		{ 
 			for(Car e: c.car)
 			{
 				if(e.year>=2000 && e.price>=600000)

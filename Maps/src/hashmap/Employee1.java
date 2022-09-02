@@ -4,7 +4,6 @@ public class Employee1 {
 int id;
 String name,dept;
 public Employee1(String dept,  String name, int id) {
-	super();
 	this.id = id;
 	this.name = name;
 	this.dept = dept;

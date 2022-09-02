@@ -17,5 +17,6 @@ public static void main(String[] args) {
 	{
 		System.out.println("Given triangle is not an Equilateral");
 	}
+	sc.close();
 }
 }

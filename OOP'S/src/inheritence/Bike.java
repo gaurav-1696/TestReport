@@ -22,4 +22,5 @@ public class Bike {
 	void seats() {
 		System.out.println("2 seats");
 	}
+	
 }

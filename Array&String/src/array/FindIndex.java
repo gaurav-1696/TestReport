@@ -12,7 +12,7 @@ public class FindIndex {
 		
 		for (int i = 0; i < arr.length; i++) 
 		{
-			// if
+			
 				System.out.println(arr[5]);
 		}
 

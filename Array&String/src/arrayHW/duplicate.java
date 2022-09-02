@@ -15,7 +15,7 @@ public class duplicate {
 
 			for (int j = i + 1; j < len; j++)
 			{
-				if (arr[i] == arr[j]) 
+				if (arr[i]== arr[j]) 
 				{
 					System.out.println(arr[j] + "  ");
 				}

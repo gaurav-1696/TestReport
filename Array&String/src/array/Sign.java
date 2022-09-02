@@ -15,8 +15,7 @@ public static void main(String[] args) {
 				a[i]=a[j];
 				a[j]=temp;
 			}
-		}
-		
+		}		
 	}
 	System.out.println(Arrays.toString(a));
 }

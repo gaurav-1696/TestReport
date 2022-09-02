@@ -15,7 +15,6 @@ public class armstrongno {
 			int first = two / 10;
 			int mid = two % 10;
 			int add = (lastdigit * lastdigit * lastdigit) + (first * first * first) + (mid * mid * mid);
-
 			System.out.println("sum of cube =" + add);
 			if (add == n)
 				System.out.println("given no. is armstrong");

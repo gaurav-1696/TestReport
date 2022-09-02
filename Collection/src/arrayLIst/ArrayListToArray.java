@@ -16,21 +16,24 @@ public static void main(String[] args) {
 	al.add(520);
 	al.add(20004);
 	
-	
+	System.out.println("contain "+al.contains(520)); 
 	System.out.println(Collections.frequency(al, 400));
 	System.out.println(al);
 	Collections.sort(al); //ascending order
-System.out.println(al);
+   System.out.println(al);
 
 //descending order
 Collections.reverse(al);
 System.out.println(al);
+System.out.println("+++++++++++++++");
 	int arr[]=new int[al.size()];
 	for(int i=0;i<al.size();i++)
 	{
-		arr[i]=al.get(i);
+		
+		//arr[i]=al.get(i);
+		System.out.println(arr[i]=al.get(i));
 	}
-	System.out.println(Arrays.toString(arr));
+	//System.out.println(Arrays.toString(arr));
 	
 	
 	Integer ai[]=new Integer[al.size()];

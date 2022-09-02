@@ -9,8 +9,7 @@ public class Employee {
 	{
 		this.eid=eid;
 		this.name=name;
-		this.salary=salary;
-		
+		this.salary=salary;	
 	}
 	
 	public String toString()

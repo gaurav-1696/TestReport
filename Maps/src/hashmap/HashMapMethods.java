@@ -3,6 +3,7 @@ package hashmap;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 
 public class HashMapMethods {
 public static void main(String[] args) {
@@ -36,14 +37,11 @@ public static void main(String[] args) {
 	hm.replace(142, "not allowd");
 	System.out.println(hm);
 	
-	//map adding
-	
-	HashMap<Integer, String> hm1=new HashMap<>(); 
-	 
+	//map adding	
+	HashMap<Integer, String> hm1=new HashMap<>(); 	 
 	hm1.put(1000, "add");
 	hm1.put(1002, "done");
-	hm1.put(1003, "ok");
-	
+	hm1.put(1003, "ok");	
 	hm.putAll(hm1);
 	System.out.println(hm);
 	
@@ -55,8 +53,7 @@ public static void main(String[] args) {
 	for(String s:hm.values())    //only values of the map
    	{
 		System.out.println(s);
-	}
-	
+	}	
 	for(Map.Entry<Integer, String> entry: hm.entrySet())
 	{
 		System.out.println(entry.getKey()+" "+entry.getValue());
@@ -67,14 +64,12 @@ public static void main(String[] args) {
 	
 //	Set s=hm.entrySet();
 //	Iterator itr=s.iterator();
-	Iterator itr=hm.entrySet().iterator();
+	Iterator<Entry<Integer, String>> itr=hm.entrySet().iterator();
 	while(itr.hasNext())
 	{
 		System.out.println(itr.next());
 	}
 	System.out.println();
-	System.out.println("----------iterator using map.entry-------");
-	
 	Iterator<Map.Entry<Integer, String>> limtr=hm.entrySet().iterator();
 	while(limtr.hasNext())
 	{

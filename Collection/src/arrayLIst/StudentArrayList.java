@@ -23,6 +23,7 @@ public class StudentArrayList {
 			if(s.dept.equalsIgnoreCase("Computer") && s.marks>60)
 				System.out.println(s);
 		}
+		
 	}
 
 }

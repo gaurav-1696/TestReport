@@ -1,7 +1,7 @@
 package interfaceInJava;
 
 public interface InterfaceB extends InterfaceA {
-void A();
+public abstract void A();
 void B();
 void C();
 void D();

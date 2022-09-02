@@ -11,7 +11,7 @@ void eat(float s,int b)
 }
 void eat(int g,int c)
 {
-	System.out.println("myname is fdf ");	
+	System.out.println("myname is Gaurav ");	
 }
 public static void main(String[] args) {
 	Overloading o=new Overloading();

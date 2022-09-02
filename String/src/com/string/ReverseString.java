@@ -6,9 +6,9 @@ import java.util.Scanner;
 public class ReverseString {
 
 	public static void main(String[] args) {
-		//String s = "Java is a programming language";
-		String s="HELLO$ WORLD";
-		String str[] = s.split("[$] ");
+		String s = "Java is a programming language";
+		//String s="HELLO$ WORLD";
+		String str[] = s.split(" ");
 		for (int i = 0; i < str.length / 2; i++) {
 			String temp = str[i];
 			str[i] = str[str.length - i - 1];     //sorting

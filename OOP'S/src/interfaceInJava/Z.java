@@ -1,6 +1,6 @@
 package interfaceInJava;
 
-public class Z implements InterfaceB {
+public class Z implements InterfaceB,InterfaceA {
 
 	public void aa() {
 		

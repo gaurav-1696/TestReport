@@ -20,7 +20,7 @@ public class Bike1Main {
 		p1.setName(name);
 		p1.setWeight(weight);
 		p1.setModelno(modelno);
-		System.out.println(p1);
+		System.out.println(p1+" "+p1.getPrice()+" ");
 		p1.engine();
 		p1.gears();
 		p1.wheelno();

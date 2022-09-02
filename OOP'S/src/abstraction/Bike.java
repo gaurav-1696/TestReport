@@ -10,6 +10,7 @@ public abstract class Bike {
 	 this.price=price;
  }
  void display() {
+	 
 	 System.out.println(brand+" "+color+" "+price);
  }
  void wheelNo()
